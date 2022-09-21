@@ -1,0 +1,99 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(103deg, rgba(2,0,36,1) 0%, rgba(244,251,246,1) 0%, rgba(54,137,154,1) 100%);
+    /*background-image: url(background.jpeg); Serve para adicionar imagens ao backgroud
+    backgroud-repeat: no-repeat; Serve para a imagem não ser clonada pela página inteira
+    backgroud-position: 100% 10%; Define a posição da imagem
+    backgroud-size: cover; Cobre a página inteira, alterando a resolução da imagem
+    background-attachment: fixed ; a imagem fica fixada e não acompanha o rolamento da página*/
+    font-family:'Titillium Web', sans-serif;; /*corresponde a fonte padrão da página*/
+    margin: 0;
+} 
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.degrade {
+    
+  
+    color: #0b43a4;
+    background-image: -webkit-linear-gradient(0deg, #0b43a4 0%, #1bcdd1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    margin-bottom: 0%;
+    font-family: 'Nunito', sans-serif, 'Titillium Web', sans-serif;
+    text-align: center;
+    
+    }
+    h2 {
+        margin-top: 5px;
+        font-style: italic; /* determina a font para apenas uma tag ou parâmetro em específico. */
+        color: rgb(48, 48, 48);
+        font-weight: 100; /* determina a grossura da font */
+        letter-spacing: -1px; /* determina o espaçamento entre uma letra e outra*/
+    }
+
+    h3 {
+        margin-top: 5px;
+        font-style: italic; /* determina a font para apenas uma tag ou parâmetro em específico. */
+        color: rgb(48, 48, 48);
+        font-weight: 100; /* determina a grossura da font */
+        
+    }
+
+    
+
+.foto {
+    width: 200px;
+
+    border: 2px solid #000000;
+    /*border-radius: 50%; Define a forma da borda*/ 
+        /*
+        border-width: 5px;
+        border-color: black;
+        border-style: solid;
+        */
+
+    margin-top: 25px;
+    margin-bottom: 25px; /* margin corresponde ao espaço entre a imagem e outros elementos dentro da página */
+    padding: 2px; /*Espaço entre borda e imagem em si */
+    box-shadow: 0px 0px 50px #56a1c4; /*primeiro valor é o sentido horizontal, o segundo vertical, terceiro intensidade e cor*/
+
+
+    
+
+}
+
+.social-icons {
+     width: 20px;
+     height: auto;
+}
+.social-links {
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    
+}
+
+.profissão {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.email {
+    margin-top: 0;
+    margin-bottom: 0;
+}
