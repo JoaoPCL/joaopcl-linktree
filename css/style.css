@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    background-color: #151e3a;
+    background-image: 
+        radial-gradient(at 47% 33%, rgb(19, 86, 131) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, rgb(7, 131, 125) 0, transparent 55%);
+        background-attachment: fixed;
+        
+}
+
+
+
+.profile {
+    width: 80px;
+    border-radius: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 50px rgb(8, 221, 210);
+    padding: 1px;
+
+} 
+
+.nome, .sub {
+    
+     
+    color: white;
+   
+}
+
+.nome {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 0px;
+}
+
+.sub {
+    margin-top: 0px;
+}
+
+.perfil {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+    list-style: none;
+    justify-content: center; /* serve para centralizar elemento(só funciona no flex) */
+    /*justify-content: space-between; Cria espaçamento apenas entre os elementos (Funciona apenas no flex) */
+    justify-content: space-around; /*cria espaçamento entre os elementos e o próprio body (apenas no flex)*/
+    margin: 20px 0;
+}
+
+.social img {
+    width: 28px;
+    
+}
+
+.links-list li a {
+    list-style: none;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 30px;
+    box-shadow: 0 0 16px rgb(8 221 210);
+    display: block; /* transforma cada janela em blocos, criando espaçamento entre elas e os demais elementos */
+    color: rgb(7, 131, 125);
+    
+}
+
+.links-list li a span {
+    color: gray;
+    margin-top: 10px; /*funciona apenas em block*/
+    display: block;
+}
